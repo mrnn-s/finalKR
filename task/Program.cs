@@ -1,4 +1,4 @@
-﻿void S (string [] array)
+﻿void Sortarray (string [] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
@@ -8,4 +8,4 @@
  Console.WriteLine (" ");
 }
 string [] array = {"123", "231", "hello","world", "32333", "333"};
-S (array);
+Sortarray (array);
